@@ -1,0 +1,18 @@
+Portfolio Checklist
+
+
+Welcome Page:
+    Casual       *
+    Professional *
+
+HOME: 
+    Menubar/Sidebar:
+        About - * Need to add sidebar, *Need to add footer with contact 
+        Contact * Need to add number, email, 
+        Blog  - * 
+        Projects
+        ////////////////////////////////////////////////
+        Chess.com
+        SoundCloud
+
+
