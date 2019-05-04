@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+
+*{
+    box-sizing: border-box;
+}
 body, html{
     height: calc(100% - 2em);
     margin: 0;
     /* font-family: '' */
-    scrollbar-width: none;
-    
-    
-    
-    
-    
+    scrollbar-width: none;   
 }
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
@@ -116,6 +115,21 @@ img{
     width: 100%;
     height: 70%;
 }
+div.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+div.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img.image-one {-webkit-filter: grayscale(100%);filter: grayscale(100%);} 
+img.image-two {-webkit-filter: grayscale(100%);filter: grayscale(100%);} 
+img.image-three {-webkit-filter: grayscale(100%);filter: grayscale(100%);}
 
 button.button-one{
     position: absolute;
@@ -129,13 +143,22 @@ button.button-one{
 }
 
 h1.header-one{
-    font-family: 'Boogaloo', cursive;
-    font-size: 30px auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    padding: 1em;
+    width: 100%;
+    column-count: 2;
+    /* text-align: center; */
+
+    /* color: #ffffff; */
+    background: #ffffff;
+}
+
+h2.header-two{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
     /* padding: 1em; */
-    text-align: center;
-    color: #ffffff;
-    /* background: yellow; */
-    
+    width: 50%;
 }
 p.paragraph-one{
     /* background: red; */
