@@ -59,7 +59,7 @@ div.home{
     padding: 1em;
 }
 .home:hover{
-    background-color: #ffffff;
+    background-color: #ffffff; 
 }
 div.about{
     background: #23272A;
@@ -101,7 +101,27 @@ div.container{
     text-align: center;
     color: #ffffff;
 }
-div.center-head{
+div.search-container{
+    position: absolute;
+    top: 1%;
+    left: 83%;
+    /* text-align: center; */
+    width: 1em;
+    height: 4em;
+    
+
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+
+.center-head h1{
     position: absolute; 
     top: 45%;
     left: 50%;
@@ -109,7 +129,41 @@ div.center-head{
     color: #ffffff;
     font-family: 'Roboto Mono', monospace;
     font-size: 110px;
+    overflow: hidden;
+
+    border-right: .15em solid rgb(54, 56, 58);
+
+    white-space: nowrap;
+
+    margin: 0 auto;
+
+    letter-spacing: .02em;
+    -webkit-animation: typing 3.5s steps(30, end),blink-caret .5 steps-end infinite;
+
+    animation: typing 3.5s steps(30, end), blink-caret .5s steps-end infinite;
 }
+
+@-webkit-keyframes typing {
+    from { width: 0; }
+    to {width: 100%; }
+}
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+
+}
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+
 
 img{
     width: 100%;
@@ -144,19 +198,16 @@ button.button-one{
 
 h1.header-one{
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 15px auto;
     padding: 1em;
     width: 100%;
     column-count: 2;
-    /* text-align: center; */
-
-    /* color: #ffffff; */
     background: #ffffff;
 }
 
 h2.header-two{
     font-family: 'Playfair Display', serif;
-    font-size: 15px;
+    font-size: 15px auto;
     /* padding: 1em; */
     width: 50%;
 }
