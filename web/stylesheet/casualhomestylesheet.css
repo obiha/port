@@ -103,22 +103,26 @@ div.container{
 }
 div.search-container{
     position: absolute;
-    top: 1%;
-    left: 83%;
-    /* text-align: center; */
+    top: 65%;
+    left: 35%;
+    
+    /* right: 50%; */
+
+    
+    text-align: center;
     width: 1em;
     height: 4em;
     
 
 }
 
-.search-container input[type=text] {
+div.search-container input[type=text] {
     padding: 6px;
     font-size: 17px;
     cursor: pointer;
     text-align: center;
-    
-    
+    border-radius: 10px;
+    width: 22em;
 }
 
 .center-head h1{
