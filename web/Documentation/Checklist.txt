@@ -3,16 +3,20 @@ Portfolio Checklist
 
 Welcome Page:
     Casual       *
-    Professional *
+
 
 HOME: 
     Menubar/Sidebar:
         About - * Need to add sidebar, *Need to add footer with contact 
         Contact * Need to add number, email, 
-        Blog  - * 
+        Search -  Make search bar work with google search
+        
         Projects
         ////////////////////////////////////////////////
         Chess.com
-        SoundCloud
+
+
+
+        
 
 

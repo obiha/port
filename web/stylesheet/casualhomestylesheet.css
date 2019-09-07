@@ -33,7 +33,7 @@ aside{
 }
 
 div.sidenav{
-    background: #23272A;
+    background: #111111;
     height: 100%;
     width: 210px;
     position: fixed;
@@ -55,29 +55,29 @@ div.sidenav a{
 }
 
 div.home{
-    background: #23272A;
+    background: #111111;
     padding: 1em;
 }
 .home:hover{
     background-color: #ffffff; 
 }
 div.about{
-    background: #23272A;
+    background: #111111;
     padding: 1em;
 }
 .about:hover{
     background-color: #ffffff;
 }
-div.portfolio{
-    background: #23272A;
+div.projects{
+    background: #111111;
     padding: 1em;
 }
-.portfolio:hover{
+.projects:hover{
     background-color: #ffffff;
 }
 
 div.contact{
-    background: #23272A;
+    background: #111111;
     padding: 1em;
 }
 .contact:hover{
@@ -143,6 +143,72 @@ div.search-container{
     animation: typing 3.5s steps(30, end), blink-caret .5s steps-end infinite;
 }
 
+#github-logo{
+    position: absolute;
+    font-size: 5em;
+    text-align: center;
+    top:  60%;
+    left: 36%;
+    text-decoration: none;   
+}
+#github-logo:link{
+    color: #ffffff;
+}
+#github-logo:visited{
+    color: #ffffff;
+}
+#github-logo:hover{
+    color: #333333;
+}
+#github-logo:active{
+    color: #ffffff;
+}
+
+
+#linkedin-logo{
+    position: absolute;
+    font-size: 5em;
+    text-align: center;
+    top:  60%;
+    left: 46%;
+    text-decoration: none;
+}
+#linkedin-logo:link{
+    color: #ffffff;
+}
+#linkedin-logo:visited{
+    color: #ffffff;
+}
+#linkedin-logo:hover{
+    color: #333333;
+}
+#linkedin-logo:active{
+    color: #ffffff;
+}
+
+
+#pdf-logo{
+    position: absolute;
+    font-size: 75px;
+    text-align: center;
+    top:  60%;
+    left: 56%;
+    text-decoration: none;   
+}
+#pdf-logo:link{
+    color: #ffffff;
+}
+#pdf-logo:visited{
+    color: #ffffff;
+}
+#pdf-logo:hover{
+    color: #333333;
+}
+#pdf-logo:active{
+    color: #ffffff;
+}
+
+
 @-webkit-keyframes typing {
     from { width: 0; }
     to {width: 100%; }
@@ -198,7 +264,7 @@ button.button-one{
 
 h1.header-one{
     font-family: 'Playfair Display', serif;
-    font-size: 15px auto;
+    font-size: 15px;
     padding: 1em;
     width: 100%;
     column-count: 2;

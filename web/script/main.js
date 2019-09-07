@@ -20,12 +20,12 @@ signInButton.addEventListener('click', () => {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-resumeButton.addEventListener('click', () =>{
-    console.log("This is working")
-    // window.open("web/pdf/Resume.pdf");
-})
+// resumeButton.addEventListener('click', () =>{
+//     console.log("This is working")
+//     // window.open("web/pdf/Resume.pdf");
+// })
 
-menuLink.addEventListener('click',(e) => {
-    menu.classList.toggle('active');
-    e.preventDefault();
-})
+// menuLink.addEventListener('click',(e) => {
+//     menu.classList.toggle('active');
+//     e.preventDefault();
+// })
